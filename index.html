@@ -3,26 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Google</title>
+        <link rel="stylesheet" href="reset.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png">
     </head>
         
     <body>
         <header>
             <nav id="navbar">
-                <ul id="nav-left">
-                    <li>About</li>
-                    <li>Store</li>
-                </ul>
-                <ul id="nav-right">
-                    <li>Gmail</li>
-                    <li>Images</li>
-                </ul>
+                <div id="nav">
+                    <ul id="nav-left">
+                        <li>About</li>
+                        <li>Store</li>
+                    </ul>
+                    <ul id="nav-right">
+                        <li>Gmail</li>
+                        <li>Images</li>
+                        <li><a href="https://about.google/intl/en/products/?tab=wh&tip=popular-times"><img src="https://cdn4.iconfinder.com/data/icons/web-mobile1/100/Untitled-34-512.png" id="apps-icon"></a></li>
+                        <li><img src="https://lh3.googleusercontent.com/-PnH1HnvmukI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rckwkAyKfly4teGesoFIFtMQi0rqg.CMID/s32-c/photo.jpg" id="user-icon"></li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
         <main>
-            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
             <div id="search-area">
+                <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
                 <input type="text" id="search-bar"></input><br>
                 <button type="button" class="search-button">Google Search</button>
                 <button type="button" class="search-button">I'm Feeling Lucky</button>
@@ -30,16 +36,18 @@
         </main>
 
         <footer id="footer">
-            <ul id="footer-left">
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-            </ul>
-            <ul id="footer-right">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
-            </ul>
+            <div id="foot-contain">
+                <ul id="footer-left">
+                    <li>Advertising</li>
+                    <li>Business</li>
+                    <li>How Search works</li>
+                </ul>
+                <ul id="footer-right">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
